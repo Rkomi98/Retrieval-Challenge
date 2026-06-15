@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+qdrant_storage/
+.DS_Store
+
+# build slide
+slides_build/
+
+# docente
+ISTRUZIONI_DOCENTE.md

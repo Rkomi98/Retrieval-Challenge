@@ -1,0 +1,58 @@
+[
+  {
+    "query": "Come avvio Qdrant in locale con Docker e quali porte espone?",
+    "fonti": ["00_guida_rapida.md", "04_deploy_produzione.md"]
+  },
+  {
+    "query": "Posso usare Qdrant in memoria senza avviare un server?",
+    "fonti": ["00_guida_rapida.md"]
+  },
+  {
+    "query": "Che differenza c'è tra vettori densi e vettori sparsi in una collection?",
+    "fonti": ["01_concetti_collections.md"]
+  },
+  {
+    "query": "Come funziona l'indice HNSW e perché rende veloce la ricerca?",
+    "fonti": ["02_indicizzazione_hnsw.md"]
+  },
+  {
+    "query": "Cosa fa il parametro ef durante la ricerca?",
+    "fonti": ["02_indicizzazione_hnsw.md"]
+  },
+  {
+    "query": "Come restringo la ricerca a un sottoinsieme di documenti filtrando sul payload?",
+    "fonti": ["03_filtering_payload.md"]
+  },
+  {
+    "query": "Come faccio il backup o lo snapshot di una collection Qdrant?",
+    "fonti": ["04_deploy_produzione.md"]
+  },
+  {
+    "query": "Cos'è un namespace in Pinecone e a cosa serve?",
+    "fonti": ["05_pinecone_concetti.md"]
+  },
+  {
+    "query": "Qual è la differenza tra modalità serverless e pod-based in Pinecone?",
+    "fonti": ["05_pinecone_concetti.md"]
+  },
+  {
+    "query": "Come si filtrano i metadati in una query Pinecone con la sintassi stile MongoDB?",
+    "fonti": ["06_pinecone_ingestion_query.md"]
+  },
+  {
+    "query": "In Pinecone come carico i vettori e come imposto top_k nella query?",
+    "fonti": ["06_pinecone_ingestion_query.md"]
+  },
+  {
+    "query": "Qual è la differenza tra una collection di Qdrant e un index di Pinecone?",
+    "fonti": ["07_qdrant_vs_pinecone.md"]
+  },
+  {
+    "query": "Conviene di più Qdrant open source o Pinecone gestito, e in base a cosa scelgo?",
+    "fonti": ["07_qdrant_vs_pinecone.md"]
+  },
+  {
+    "query": "Come genero gli id dei punti in modo che reingerire lo stesso chunk non crei duplicati?",
+    "fonti": ["00_guida_rapida.md", "06_pinecone_ingestion_query.md"]
+  }
+]

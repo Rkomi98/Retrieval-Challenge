@@ -1,0 +1,8 @@
+# Stesso stack della Lez07. Se usi il .venv del corso, è già tutto installato.
+datapizza-ai
+datapizza-ai-core
+datapizza-ai-embedders-openai
+datapizza-ai-vectorstores-qdrant
+qdrant-client
+sentence-transformers      # per i modelli di embedding locali e gratuiti
+python-dotenv
